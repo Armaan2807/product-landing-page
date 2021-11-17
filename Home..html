@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                    alt="" height="44px" width="220px">
+            </div>
+            <div class="navbar-heading">
+                <div>
+                    Features
+                </div>
+                <div>
+                    Pricing
+                </div>
+                <div>
+                    How it works
+                </div>
+            </div>
+        </div>
+        <!-- hero section start here -->
+        <div class="hero-section">
+            <div class="hero-heading">
+                Handcrafted, home-made masterpieces
+            </div>
+            <div class="hero-input">
+                <input type="text" placeholder="Enter Your Email address ">
+            </div>
+            <div class="hero-btn">
+                <button class="btn-1">Get started</button>
+            </div>
+
+        </div>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-fire"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>
+                            Our trombones use the shiniest brass which is sourced locally. This
+                            will increase the longevity of your purchase.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-truck"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We make sure you recieve your trombone as soon as we have finished making it. We also
+                            provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full"></i>
+                    </div>
+                    <div class="desc">
+                        <h2> Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or faults and we will check
+                            and test the pitch of your instrument.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- hero sections ends here -->
+        <!-- cards starts here -->
+        <div class="container-1">
+            <div class="card-1">
+                <div class="heading">
+                    TENOR TROMBONE
+                </div>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="card-2">
+                <div class="heading">
+                    Bass TROMBONE
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</body>
+
+</html>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 24px;
+    }
+
+    .navbar-heading {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-heading {
+        font-weight: 700px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .hero-input {
+        margin-bottom: 12px;
+    }
+
+    /* .btn-1 {
+        font-size: 16px;
+        font-weight: 800;
+    } */
+
+    .btn-1 {
+        max-width: 150px;
+        width: 100%;
+        padding: 6px 12px;
+        height: 30px;
+        margin: 15px 0;
+        border: 0;
+        background-color: #f1c40f;
+    }
+
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #features {
+        margin-top: 3px;
+    }
+
+    #features .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 20vw;
+        color: darkorange;
+    }
+
+    .desc #features {
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 125px;
+        width: 80vw;
+        padding: 5px;
+    }
+
+    .card-1 {
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+    }
+
+    .heading {
+        background-color: rgb(221, 221, 221);
+        display: flex;
+        justify-content: center;
+    }
+</style>
